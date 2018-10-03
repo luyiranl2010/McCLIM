@@ -1120,7 +1120,8 @@ outside the clipping area should be grey.")
                                                  "Ciao"
                                                  cx cy
                                                  :align-x :center :align-y :center
-                                                 :text-size 50))))
+                                                 :text-size 50
+                                                 :transform-glyphs t))))
 
 
 (define-drawing-test "07) Text Rotation" (stream)
@@ -1131,7 +1132,8 @@ outside the clipping area should be grey.")
                                                     "Ciao"
                                                     cx cy
                                                     :align-x :center :align-y :center
-                                                    :text-size 50))))
+                                                    :text-size 50
+                                                    :transform-glyphs t))))
 
 (define-drawing-test "07) Text - 1" (stream)
     ""
