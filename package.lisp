@@ -1990,6 +1990,7 @@
    #:font-character-width
    #:font-string-width
    #:font-string-glyph-codes
+   #:font-glyph-code-char
    #:font-text-extents
    #:font-ascent
    #:font-descent
